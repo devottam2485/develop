@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="media">
+    <file>txt-icon.png</file>
+    <file>edl_file.png</file>
+  </qresource>
+</RCC>

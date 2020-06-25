@@ -1,0 +1,33 @@
+/*
+ Copyright (c) 2016 Shotgun Software Inc.
+ 
+ CONFIDENTIAL AND PROPRIETARY
+ 
+ This work is provided "AS IS" and subject to the Shotgun Pipeline Toolkit
+ Source Code License included in this distribution package. See LICENSE.
+ By accessing, using, copying or modifying this work you indicate your
+ agreement to the Shotgun Pipeline Toolkit Source Code License. All rights
+ not expressly granted therein are reserved by Shotgun Software Inc.
+*/
+
+/*
+Make sure standard dialogs and button boxes
+Will have the "Do it" button on the far right
+*/
+
+/*
+Drop area style : big font, and a dashed outline
+*/
+DropAreaFrame {
+    border: 2px dashed grey;
+    border-radius: 4px;
+    font-style: bold;
+    background-color: #2B2B2B;
+}
+
+/*
+Highlight the drop area when something is dragged over
+*/
+DropAreaFrame[dragging="true"] {
+    border: 2px dashed white;
+}

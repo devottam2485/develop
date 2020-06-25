@@ -1,0 +1,80 @@
+<<<<<<< HEAD
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Mac stuff
+.DS_Store
+
+# Dirs that unit tests write stuff to.
+python/tests/results
+tests/results
+
+# In case anyone is using PyCharm.
+.idea
+
+# Vagrant Vms
+.vagrant
+python/tests/test_build_delivery_no_checksum
+python/tests/test_build_stereo_delivery_no_checksum
+=======
+# PyCharm
+.idea/
+
+# Python
+*.pyc
+>>>>>>> 331955afff6ef2182224fb9ac475788410a7ee70
